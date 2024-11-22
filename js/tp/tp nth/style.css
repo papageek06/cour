@@ -1,0 +1,24 @@
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+
+/* cibler le 2 eme li  enfant  du 1er ul*/
+
+div p:nth-child(2) {
+   color: red;
+}
+/* cible les p dans la div qui est 2 eme enfant de body*/
+
+body div:nth-child(2) p{
+    color: blue;
+}
+
+/* cible tout les li qui sont 2 eme enfant des ul dans la div 2 eme enfant de body*/
+
+body div:nth-child(2) ul li:nth-child(2){
+    color: rgb(191, 203, 31);
+}
